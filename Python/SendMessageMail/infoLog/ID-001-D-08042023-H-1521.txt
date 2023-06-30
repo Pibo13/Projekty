@@ -1,0 +1,8 @@
+INFORMACJE O LOGOWANIU:
+
+nt.times_result(user=0.015625, system=0.015625, children_user=0.0, children_system=0.0, elapsed=0.0)
+
+E-MAIL: piotrbodych@vp.pl
+ID U¯YTKOWNIKA: 001 - Piotr Bodych (Prezes Zarz¹du)
+LOGIN WIN: UserPiotrek
+

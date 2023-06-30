@@ -1,0 +1,9 @@
+Dane z ostatniego LOGOWANIA:
+--------------------------------------
+
+time.struct_time(tm_year=2023, tm_mon=4, tm_mday=8, tm_hour=14, tm_min=52, tm_sec=26, tm_wday=5, tm_yday=98, tm_isdst=1)
+
+E-MAIL: piotrbodych@vp.pl
+ID U¯YTKOWNIKA: 003 - Martyna Ko³odziej (Cz³onek Zarz¹du)
+LOGIN WIN: UserPiotrek
+
