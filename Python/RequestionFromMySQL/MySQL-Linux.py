@@ -1,3 +1,6 @@
+#!/usr/bin/python3
+
+import time
 import mysql.connector
 import os
 import sys
@@ -20,7 +23,7 @@ while driver != 0:
     driver=menu()
 
     if driver == 1:
-        os.system('cls')
+
         print('Option showing all account users.')
         print('--'*20)
 
@@ -40,12 +43,13 @@ while driver != 0:
         cursor.close()
         connection.close()
 
-        os.system('pause')
-        os.system('cls')
+        time.sleep(300)
+        os.system('clear')
+
     
     elif driver == 2:
         
-            os.system('cls')
+            os.system('clear')
             print('It is option add new user.')
             print('--'*20)
             connection = mysql.connector.connect(user='root', password='', host='127.0.0.1',

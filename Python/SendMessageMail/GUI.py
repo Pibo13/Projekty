@@ -1,5 +1,5 @@
-import tkinter as tk 
-from PIL import GifImagePlugin, ImageTk 
+import tkinter as tk
+from PIL import GifImagePlugin, ImageTk
 from dotenv import load_dotenv
 from os import getenv, system, times_result
 import getpass
