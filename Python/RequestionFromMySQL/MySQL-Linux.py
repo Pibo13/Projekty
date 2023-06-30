@@ -23,7 +23,7 @@ while driver != 0:
     driver=menu()
 
     if driver == 1:
-
+        os.system('clear')
         print('Option showing all account users.')
         print('--'*20)
 
@@ -39,12 +39,15 @@ while driver != 0:
             print(f'{id}', '|',f'{login}', '|',f'{password}', '|', f'{name}', '|', f'{lastname}', '|', f'{email}')
             print('--'*40)
             print()
+
+            print('Program stoped on 5 minutes...')
+            time.sleep(300)
+            os.system('clear')
         connection.commit()
         cursor.close()
         connection.close()
 
-        time.sleep(300)
-        os.system('clear')
+
 
     
     elif driver == 2:
