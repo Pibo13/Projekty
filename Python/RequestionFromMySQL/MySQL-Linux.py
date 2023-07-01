@@ -5,6 +5,8 @@ import mysql.connector
 import os
 import sys
 
+
+os.system('clear')
 def menu():
     print('   -- OPERATION IN DATA BASE MYSQL --')
     print('--'*20)
@@ -20,7 +22,7 @@ def menu():
 
 driver = 1
 while driver != 0:
-    driver=menu()
+    driver = menu()
 
     if driver == 1:
         os.system('clear')
@@ -28,7 +30,7 @@ while driver != 0:
         print('--'*20)
 
         connection = mysql.connector.connect(user='root', password='', host='127.0.0.1',
-        db = 'polpiotech', auth_plugin='mysql_native_password')
+        db = 'polpiotech', auth_plugin = 'mysql_native_password')
 
         cursor = connection.cursor()
 
@@ -36,17 +38,17 @@ while driver != 0:
         cursor.execute(query)
         for (id, login, password, name, lastname, email) in cursor:
             print('ID - LOGIN - HASŁO - IMIĘ - NAZWISKO - E-MAIL')
-            print(f'{id}', '|',f'{login}', '|',f'{password}', '|', f'{name}', '|', f'{lastname}', '|', f'{email}')
+            print(f'{id}', '|', f'{login}', '|', f'{password}', '|', f'{name}', '|', f'{lastname}', '|', f'{email}')
             print('--'*40)
             print()
 
-            print('Program stoped on 5 minutes...')
-            time.sleep(300)
-            os.system('clear')
         connection.commit()
         cursor.close()
         connection.close()
 
+        print('If you want come back to the main menu press keys "CTRL+C" (session to last 5 minutes).')
+        os.system('sleep 5m')
+        os.system('clear')
 
 
     
@@ -102,12 +104,12 @@ while driver != 0:
             cursor.close()
             connection.close()
 
-            os.system('pause')
-            os.system('cls')
+            os.system('sleep 3s')
+            os.system('clear')
 
 
     elif driver == 3:
-        os.system('cls')
+        os.system('clear')
         print('This option do make change password in user account.')
         print('--'*20)
         connection = mysql.connector.connect(user='root', password='', host='127.0.0.1',
@@ -127,11 +129,11 @@ while driver != 0:
         cursor.close()
         connection.close()
 
-        os.system('pause')
-        os.system('cls')
+        os.system('sleep 3s')
+        os.system('clear')
 
     elif driver == 4:
-        os.system('cls')
+        os.system('clear')
         print('Option delete user account of data base.')
         print('--'*20)
 
@@ -150,5 +152,5 @@ while driver != 0:
         cursor.close()
         connection.close()
 
-        os.system('pause')
-        os.system('cls')
+        os.system('sleep 3s')
+        os.system('clear')
