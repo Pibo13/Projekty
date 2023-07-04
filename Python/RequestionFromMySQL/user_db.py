@@ -1,4 +1,4 @@
-#!/usr/bin/python3
+#!/usr/bin/python3.11
 
 # Polish Peter Technology - Tool for database POLPIOTECH®
 # Web Server: XAMPP
@@ -98,7 +98,7 @@ while driver != 0:
                 'lastname' : f'{lastname}',
                 'email' : f'{email}',
             }
-            cursor.execute(insertQuery, insertData)
+            cursor.execute(insertQuery, insertData) # type: ignore
             print()
             print('Added', cursor.rowcount, 'new user to the data base.')
 
