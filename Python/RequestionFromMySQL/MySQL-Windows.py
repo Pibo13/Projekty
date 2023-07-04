@@ -1,4 +1,4 @@
-import mysql.connecter
+import mysql.connector
 import os
 import sys
 

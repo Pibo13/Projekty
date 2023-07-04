@@ -1,4 +1,4 @@
-import MySQL
+import mysql.conetor
 import os
 import sys
 
