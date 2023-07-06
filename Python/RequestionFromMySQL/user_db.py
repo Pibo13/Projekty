@@ -1,8 +1,12 @@
-#!/usr/bin/python3.11
+#!/usr/bin/python3
 
 # Polish Peter Technology - Tool for database POLPIOTECH®
-# Web Server: XAMPP
-# Engine: MySQL - InnoDB
+# System Operation: Ubuntu 23.04
+# Version Python: Python3.10 / Python3.11 / Python3.12
+# Web Server: XAMPP MySQL
+# Engine MySQL: InnoDB
+
+
 
 import mysql.connector
 import os
@@ -10,7 +14,7 @@ import sys
 
 os.system('clear')
 def menu():
-    print('   -- OPERATION IN DATABASE MYSQL IN TAB USERS POLPIOTECH --')
+    print('   -- OPERATION IN DATABASE MYSQL IN TAB USERS POLPIOTECH® --')
     print('--'*20)
     print('[1] -- show all users.')
     print('[2] -- add new user.')
@@ -31,12 +35,12 @@ while driver != 0:
         print('Option showing all account users.')
         print('--'*20)
 
-        connection = mysql.connector.connect(user='root', password='Polop321!!@', host='127.0.0.1',
+        connection = mysql.connector.connect(user='piotrek', password='Polop321!!@', host='127.0.0.1',
         db = 'polpiotech', auth_plugin = 'mysql_native_password')
 
         cursor = connection.cursor()
 
-        query = 'SELECT * FROM users_account'
+        query = 'SELECT * FROM users_account_ppt'
         cursor.execute(query)
         for (id, login, password, name, lastname, email) in cursor:
             print('ID - LOGIN - HASŁO - IMIĘ - NAZWISKO - E-MAIL')
@@ -59,7 +63,7 @@ while driver != 0:
             os.system('clear')
             print('It is option add new user.')
             print('--'*20)
-            connection = mysql.connector.connect(user='root', password='Polop321!!@', host='127.0.0.1',
+            connection = mysql.connector.connect(user='piotrek', password='Polop321!!@', host='127.0.0.1',
             db = 'polpiotech', auth_plugin='mysql_native_password')
 
             try:
@@ -88,7 +92,7 @@ while driver != 0:
                         continue
 
             cursor = connection.cursor()
-            insertQuery = "INSERT INTO users_account(id, login, password, name, lastname, email) VALUES(%(id)s, %(login)s, %(password)s, %(name)s, %(lastname)s, %(email)s)"
+            insertQuery = "INSERT INTO users_account_ppt(id, login, password, name, lastname, email) VALUES(%(id)s, %(login)s, %(password)s, %(name)s, %(lastname)s, %(email)s)"
 
             insertData = {
                 'id' : f'{id}',
@@ -114,7 +118,7 @@ while driver != 0:
         os.system('clear')
         print('This option do make change password in user account.')
         print('--'*20)
-        connection = mysql.connector.connect(user='root', password='Polop321!!@', host='127.0.0.1',
+        connection = mysql.connector.connect(user='piotrek', password='Polop321!!@', host='127.0.0.1',
         db = 'polpiotech', auth_plugin='mysql_native_password')
 
         cursor = connection.cursor()
@@ -122,7 +126,7 @@ while driver != 0:
         id_user = str(input('Enter user ID: '))
         password_user = str(input('Enter new user password: '))
 
-        query = 'UPDATE users_account SET users_account.password='f'{password_user} WHERE users_account.id='f'{id_user}'
+        query = 'UPDATE users_account_ppt SET users_account_ppt.password='f'{password_user} WHERE users_account_ppt.id='f'{id_user}'
         cursor.execute(query)
         print()
         print('Changed user password in', cursor.rowcount, 'row of data.')
@@ -139,12 +143,12 @@ while driver != 0:
         print('Option delete user account of data base.')
         print('--'*20)
 
-        connection = mysql.connector.connect(user='root', password='Polop321!!@', host='127.0.0.1',
+        connection = mysql.connector.connect(user='piotrek', password='Polop321!!@', host='127.0.0.1',
         db = 'polpiotech', auth_plugin='mysql_native_password')
 
         id_user = input('Enter user ID: ')
         cursor = connection.cursor()
-        query = 'DELETE FROM users_account WHERE users_account.id='f'{id_user}'
+        query = 'DELETE FROM users_account_ppt WHERE users_account_ppt.id='f'{id_user}'
 
         cursor.execute(query)
         print()

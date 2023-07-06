@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="69bf06d6-9f82-45eb-8b93-dc41f337f99d" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RequestionFromMySQL/user_db.py" beforeDir="false" afterPath="$PROJECT_DIR$/RequestionFromMySQL/user_db.py" afterDir="false" />
-    </list>
+    <list default="true" id="69bf06d6-9f82-45eb-8b93-dc41f337f99d" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -15,6 +12,187 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="HighlightingMarkupGrave">
+    <markupCoffin contentHash="-670661467" url="file://$PROJECT_DIR$/RequestionFromMySQL/user_db.py">
+      <highlighter start="69" end="79" layer="3000" target="0">
+        <option name="myExternalName" value="TYPO" />
+      </highlighter>
+      <highlighter start="191" end="202" layer="3750" target="0">
+        <option name="myExternalName" value="INFO_ATTRIBUTES" />
+      </highlighter>
+      <highlighter start="261" end="271" layer="3000" target="0">
+        <option name="myExternalName" value="TYPO" />
+      </highlighter>
+      <highlighter start="508" end="520" layer="3750" target="0">
+        <option name="myExternalName" value="INFO_ATTRIBUTES" />
+      </highlighter>
+      <highlighter start="534" end="540" layer="3000" target="0">
+        <option name="myExternalName" value="TYPO" />
+      </highlighter>
+      <highlighter start="564" end="578" layer="3750" target="0">
+        <option name="myExternalName" value="INFO_ATTRIBUTES" />
+      </highlighter>
+      <highlighter start="580" end="590" layer="3750" target="0">
+        <option name="myExternalName" value="INFO_ATTRIBUTES" />
+      </highlighter>
+      <highlighter start="804" end="811" layer="3000" target="0">
+        <option name="myExternalName" value="TYPO" />
+      </highlighter>
+      <highlighter start="824" end="829" layer="3000" target="0">
+        <option name="myExternalName" value="TYPO" />
+      </highlighter>
+      <highlighter start="864" end="866" layer="3750" target="0">
+        <option name="myExternalName" value="INFO_ATTRIBUTES" />
+      </highlighter>
+      <highlighter start="866" end="867" layer="3750" target="0">
+        <option name="myExternalName" value="INFO_ATTRIBUTES" />
+      </highlighter>
+      <highlighter start="868" end="869" layer="3750" target="0">
+        <option name="myExternalName" value="INFO_ATTRIBUTES" />
+      </highlighter>
+      <highlighter start="870" end="880" layer="3000" target="0">
+        <option name="myExternalName" value="TYPO" />
+      </highlighter>
+      <highlighter start="894" end="895" layer="3750" target="0">
+        <option name="myExternalName" value="INFO_ATTRIBUTES" />
+      </highlighter>
+      <highlighter start="896" end="897" layer="3750" target="0">
+        <option name="myExternalName" value="INFO_ATTRIBUTES" />
+      </highlighter>
+      <highlighter start="1054" end="1056" layer="3750" target="0">
+        <option name="myExternalName" value="INFO_ATTRIBUTES" />
+      </highlighter>
+      <highlighter start="1141" end="1146" layer="3000" target="0">
+        <option name="myExternalName" value="TYPO" />
+      </highlighter>
+      <highlighter start="1149" end="1153" layer="3000" target="0">
+        <option name="myExternalName" value="TYPO" />
+      </highlighter>
+      <highlighter start="1156" end="1164" layer="3000" target="0">
+        <option name="myExternalName" value="TYPO" />
+      </highlighter>
+      <highlighter start="1593" end="1610" layer="3750" target="0">
+        <option name="myExternalName" value="INFO_ATTRIBUTES" />
+      </highlighter>
+      <highlighter start="1632" end="1634" layer="3750" target="0">
+        <option name="myExternalName" value="INFO_ATTRIBUTES" />
+      </highlighter>
+      <highlighter start="1781" end="1788" layer="3000" target="0">
+        <option name="myExternalName" value="TYPO" />
+      </highlighter>
+      <highlighter start="1801" end="1806" layer="3000" target="0">
+        <option name="myExternalName" value="TYPO" />
+      </highlighter>
+      <highlighter start="1845" end="1847" layer="3750" target="0">
+        <option name="myExternalName" value="INFO_ATTRIBUTES" />
+      </highlighter>
+      <highlighter start="1847" end="1848" layer="3750" target="0">
+        <option name="myExternalName" value="INFO_ATTRIBUTES" />
+      </highlighter>
+      <highlighter start="1849" end="1850" layer="3750" target="0">
+        <option name="myExternalName" value="INFO_ATTRIBUTES" />
+      </highlighter>
+      <highlighter start="1851" end="1861" layer="3000" target="0">
+        <option name="myExternalName" value="TYPO" />
+      </highlighter>
+      <highlighter start="1935" end="1937" layer="3750" target="0">
+        <option name="myExternalName" value="INFO_ATTRIBUTES" />
+      </highlighter>
+      <highlighter start="2264" end="2270" layer="3000" target="0">
+        <option name="myExternalName" value="TYPO" />
+      </highlighter>
+      <highlighter start="2365" end="2367" layer="4000" target="0">
+        <option name="myExternalName" value="WARNING_ATTRIBUTES" />
+      </highlighter>
+      <highlighter start="2588" end="2684" layer="3750" target="0">
+        <option name="myExternalName" value="INFO_ATTRIBUTES" />
+      </highlighter>
+      <highlighter start="3174" end="3324" layer="3750" target="0">
+        <option name="myExternalName" value="INFO_ATTRIBUTES" />
+      </highlighter>
+      <highlighter start="3373" end="3374" layer="3750" target="0">
+        <option name="myExternalName" value="INFO_ATTRIBUTES" />
+      </highlighter>
+      <highlighter start="3408" end="3409" layer="3750" target="0">
+        <option name="myExternalName" value="INFO_ATTRIBUTES" />
+      </highlighter>
+      <highlighter start="3414" end="3419" layer="4000" target="0">
+        <option name="myExternalName" value="WARNING_ATTRIBUTES" />
+      </highlighter>
+      <highlighter start="3449" end="3450" layer="3750" target="0">
+        <option name="myExternalName" value="INFO_ATTRIBUTES" />
+      </highlighter>
+      <highlighter start="3455" end="3463" layer="4000" target="0">
+        <option name="myExternalName" value="WARNING_ATTRIBUTES" />
+      </highlighter>
+      <highlighter start="3489" end="3490" layer="3750" target="0">
+        <option name="myExternalName" value="INFO_ATTRIBUTES" />
+      </highlighter>
+      <highlighter start="3495" end="3499" layer="4000" target="0">
+        <option name="myExternalName" value="WARNING_ATTRIBUTES" />
+      </highlighter>
+      <highlighter start="3529" end="3530" layer="3750" target="0">
+        <option name="myExternalName" value="INFO_ATTRIBUTES" />
+      </highlighter>
+      <highlighter start="3535" end="3543" layer="4000" target="0">
+        <option name="myExternalName" value="WARNING_ATTRIBUTES" />
+      </highlighter>
+      <highlighter start="3570" end="3571" layer="3750" target="0">
+        <option name="myExternalName" value="INFO_ATTRIBUTES" />
+      </highlighter>
+      <highlighter start="3576" end="3581" layer="4000" target="0">
+        <option name="myExternalName" value="WARNING_ATTRIBUTES" />
+      </highlighter>
+      <highlighter start="3650" end="3651" layer="3750" target="0">
+        <option name="myExternalName" value="INFO_ATTRIBUTES" />
+      </highlighter>
+      <highlighter start="3923" end="3940" layer="3750" target="0">
+        <option name="myExternalName" value="INFO_ATTRIBUTES" />
+      </highlighter>
+      <highlighter start="4112" end="4119" layer="3000" target="0">
+        <option name="myExternalName" value="TYPO" />
+      </highlighter>
+      <highlighter start="4132" end="4137" layer="3000" target="0">
+        <option name="myExternalName" value="TYPO" />
+      </highlighter>
+      <highlighter start="4172" end="4174" layer="3750" target="0">
+        <option name="myExternalName" value="INFO_ATTRIBUTES" />
+      </highlighter>
+      <highlighter start="4174" end="4175" layer="3750" target="0">
+        <option name="myExternalName" value="INFO_ATTRIBUTES" />
+      </highlighter>
+      <highlighter start="4176" end="4177" layer="3750" target="0">
+        <option name="myExternalName" value="INFO_ATTRIBUTES" />
+      </highlighter>
+      <highlighter start="4178" end="4188" layer="3000" target="0">
+        <option name="myExternalName" value="TYPO" />
+      </highlighter>
+      <highlighter start="4500" end="4502" layer="3750" target="0">
+        <option name="myExternalName" value="INFO_ATTRIBUTES" />
+      </highlighter>
+      <highlighter start="4954" end="4961" layer="3000" target="0">
+        <option name="myExternalName" value="TYPO" />
+      </highlighter>
+      <highlighter start="4974" end="4979" layer="3000" target="0">
+        <option name="myExternalName" value="TYPO" />
+      </highlighter>
+      <highlighter start="5014" end="5016" layer="3750" target="0">
+        <option name="myExternalName" value="INFO_ATTRIBUTES" />
+      </highlighter>
+      <highlighter start="5016" end="5017" layer="3750" target="0">
+        <option name="myExternalName" value="INFO_ATTRIBUTES" />
+      </highlighter>
+      <highlighter start="5018" end="5019" layer="3750" target="0">
+        <option name="myExternalName" value="INFO_ATTRIBUTES" />
+      </highlighter>
+      <highlighter start="5020" end="5030" layer="3000" target="0">
+        <option name="myExternalName" value="TYPO" />
+      </highlighter>
+      <highlighter start="5482" end="5483" layer="3750" target="0">
+        <option name="myExternalName" value="INFO_ATTRIBUTES" />
+      </highlighter>
+    </markupCoffin>
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/RequestionFromMySQL/mysql.py" root0="SKIP_INSPECTION" />
@@ -33,16 +211,16 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/media/piotrek/DATA/Projekty/Python&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;vcs.Git&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "/media/piotrek/DATA/Projekty/Python",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/AutoBrowser" />
